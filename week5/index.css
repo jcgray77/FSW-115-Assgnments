@@ -1,0 +1,69 @@
+html {
+    height: 300%;
+    background-image: linear-gradient(pink, rgb(76, 158, 179));
+    font-family: Lucida;
+    color:black;
+}
+
+.enterbox {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+form {
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 1.5em;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.addtodo {
+  box-shadow: 5px 5px 5px grey;
+}
+
+button {
+    font-size: 1.5em;
+    color: palevioletred;
+    background-color: white; 
+    border: none;
+    width: 100px;
+    height: 42px;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.alltasks {
+  background-color: whitesmoke;
+  margin-top: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+ul {
+  list-style-type: square;
+  font-size: 20px;
+}
+
+li {
+  border-bottom: 2px solid #53BDFF;
+  padding-bottom: 10px;
+  padding-top: 15px;
+  font-size: 1.3em;
+}
